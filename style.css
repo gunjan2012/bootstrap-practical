@@ -1,0 +1,30 @@
+body{
+  background: #eaeaea;
+}
+.flipkart-prime {
+  font-size: 12px;
+}
+.flipkart-prime:hover img{
+  transform: rotate(180deg);
+  transition: 1s;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' -25,
+  'opsz' 10
+}
+.dropdown-menu .material-symbols-outlined{
+color: #2874f0;
+font-size: 20px;
+fill: #2874f0;
+}
+#moreContent:hover .more > .material-symbols-outlined{
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+.product-img{
+  height: 200px;
+  width: 200px;
+}
